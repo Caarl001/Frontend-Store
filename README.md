@@ -8,3 +8,11 @@ git pull origin master
 ------------------------------------------------------------------------------------
 >git commit -m "Resolver conflictos"
 >git push origin master https://github.com/Caarl001/Phyton-Practice/blob/master/
+
+###Box-Sizing sniper
+>html{
+>   box-sizing: border-box;
+>    }
+>*, *:before, *:after {
+>    box-sizing: inherit;
+>}

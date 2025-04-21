@@ -6,15 +6,62 @@
     --secundarioOscuro:#FFB300;
     --secundarioOpcion:#FF9800;
     --blanco:#FFF;
-    --negro:#000;
+    --negro:#000; /* Colores para poder despues escoger*/
 
-    --fuentePrincipal: 'Staatliches', cursive;
+    --fuentePrincipal: 'Staatliches', cursive; /* Tipografia pára usar*/
+    /* En el root coloco todo lo que despues puedo usar*/
 }
 
-.p{
-    color: #5c5ce450;
-    
+html{
+    box-sizing: border-box; /* Tamaño total de los elementos, ancho y largo */
+    font-size: 62.5%;/*Tamaño de la fuente del documento*/
 }
 
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 
+/* Globales*/
+body{
+    background-color: var(--primario); /* Color del cuerpo de la pagina*/
+    font-size: 1.6rem; /* Tamaño de la fuente para el texto*/
+    line-height: 1.5;
+}
 
+p {
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif; /* Fuente*/
+    color: var(--blanco);
+}
+
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: var(--secundario);
+    font-family: var(--fuentePrincipal);
+    color: #0505e450; /* Prueba*/
+}
+h1 {font-size: 4rem;}
+h2 {font-size: 3.2rem;}
+h3 {font-size: 2.4rem;}
+
+/* Scroll Snap */
+/* Tipografias */
+/* Titulos */
+/* Utilidades */
+/* Navegacion Principal */
+/* Hero */
+/* Servicios */
+/* Contacto */
+/* Footer */
