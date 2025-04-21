@@ -6,5 +6,5 @@ Page Store clothes
 >git pull origin master --rebase
 git pull origin master
 ------------------------------------------------------------------------------------
-git commit -m "Resolver conflictos"
-git push origin master https://github.com/Caarl001/Phyton-Practice/blob/master/README.md
+>git commit -m "Resolver conflictos"
+>git push origin master https://github.com/Caarl001/Phyton-Practice/blob/master/
